@@ -16,9 +16,13 @@ Usually you would use a library provided by Google, because it handles both gene
 6. Download a service account key in JSON format
 
 # How to run the app?
-1. Configure the settings in app.js - they are pretty self-explanatory
-2. Ensure you have installed Node and have it on your path
-3. Run the app with `node app.js` - the app wil emit a JWS which you can use to obtain a valid OAuth 2.0 [as explained](https://developers.google.com/identity/protocols/oauth2/service-account#authorizingrequests)
+1. Clone the repo
+2. Put the service account key in the root folder of the repo and name it `key.json`
+3. Configure the settings in app.js - they are pretty self-explanatory
+4. Ensure you have installed Node and have it on your path
+5. Download dependencies with `npm install`
+6. Run the app with `node .`
+7. If you have set up the configuration in app.js correctly, the app wil emit a JWS which you can use to obtain a valid OAuth 2.0 [as explained](https://developers.google.com/identity/protocols/oauth2/service-account#authorizingrequests)
 
 # What next?
 1. Obtain a token
