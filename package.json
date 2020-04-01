@@ -1,0 +1,16 @@
+{
+  "name": "gcp-jws-generator",
+  "version": "1.0.0",
+  "description": "A small app which generates valid JSON Web Signatures to obtain OAuth 2.0 tokens for use towards Google APIs",
+  "main": "app.js",
+  "dependencies": {
+    "jws": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mahic",
+  "license": "MIT",
+  "repository": "https://github.com/svvsaga/gcp-jwsgen/"
+}
